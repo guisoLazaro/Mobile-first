@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color-header: #8E9AAF;
+  --bg-color-body: #E5E5E5;
+  --bg-color-main: #EFF1FF;
+  --bg-color-title-h2: #FEEAFA;
+  --bg-color-title-h1: #CBC0D3;
+  --color-title-h1: #FFFFFF;
+  --color-title-h2: #4A4E69;
+  --color-p: #23053A;
+  --ff-title-h1-h2: 'Staatliches',sans-serif;
+  --ff-p: 'Palanquin', sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--bg-color-body);
+}
+header div {
+  padding: 0 0 2.9rem;
+}
+header {
+  background: var(--bg-color-header);
+  text-align: center;
+}
+header img {
+  padding: 3.2rem 0 3.2rem;
+}
+
+header h1 {
+  font-family: var(--ff-title-h1-h2);
+  font-size: 4.0rem;
+  color: var(--color-title-h1);
+  background: var(--bg-color-title-h1);
+}
+.container {
+  max-width: 38.4rem;
+  margin: 0 auto;
+}
+main {
+  display: grid;
+  gap: 3.2rem;
+  background: var(--bg-color-main);
+  padding: 1.4rem 3.2rem 6.0rem;
+}
+p {
+  text-align: center;
+  font-family: var(--ff-p);
+  font-weight: 400;
+  font-size: 2.0rem;
+  line-height: 1.5rem;
+}
+.card {
+  position: relative;
+}
+.card h2 {
+  position: absolute;
+  left: 20rem;
+  top: 1.7rem;
+  color: var(--color-title-h2);
+}
+.card h2 span {
+  background: var(--bg-color-title-h2);
+  height: 3.5rem;
+  padding: 2px 2.3rem 2px;
+  border-radius: 2.0rem;
+  font-weight: 400;
+  font-family: var(--ff-title-h1-h2);
+  font-size: 2.0rem;
+  line-height: 3.4rem;
+}

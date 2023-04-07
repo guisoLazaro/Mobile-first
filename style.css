@@ -16,7 +16,9 @@
   --ff-p: 'Palanquin', sans-serif;
   font-size: 62.5%;
 }
-
+body {
+  min-height: 100vh;
+}
 .container {
   display: flex;
   flex-direction: column;
@@ -127,7 +129,8 @@ footer strong {
 @media (min-width: 1280px){
   .container{
     flex-direction: row;
-    gap: 3.2rem;
+    justify-content: center;
+    gap: 9.8rem;
   }
   span {
     display: none;
@@ -150,14 +153,16 @@ footer strong {
     display: inline-block;
     padding-bottom: 3.2rem;
   }
-  .cards {
-    padding-top: 5.0rem;
+  .card img {
+    max-width: 22.0rem;
   }
   .card img:hover {
     transform: scale(1.1);
     opacity: 0.7;
   }
-  
+  .cards {
+    padding-top: 6.4rem;
+  }
   .cards {
     grid-template-areas: 
     'A B C' 

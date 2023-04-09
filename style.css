@@ -23,16 +23,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-h1 {
-  font-family: var(--ff-title-h1-h2);
-  color: var(--color-title-h1);
-  font-weight: 400;
-  font-size: 4.0rem;
-  line-height: 3.4rem;
-  padding: 8px 0 7px;
-  letter-spacing: 0.05em;
-
-}
 header {
   text-align: center;
   background: var(--bg-color-header);
@@ -45,6 +35,26 @@ header div {
 header img {
   padding-top: 3.2rem;
 }
+.text {
+  display: none;
+  max-width: 27.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.0rem;
+  color: var(--color-title-h1);
+}
+
+h1 {
+  font-family: var(--ff-title-h1-h2);
+  color: var(--color-title-h1);
+  font-weight: 400;
+  font-size: 4.0rem;
+  line-height: 3.4rem;
+  padding: 8px 0 7px;
+  letter-spacing: 0.05em;
+
+}
 .mobile {
   font-family: var(--ff-p);
   font-weight: 400;
@@ -54,7 +64,6 @@ header img {
   color: var(--color-p);
   padding: 1.4rem 4.3rem 6.3rem 3.6rem;
 }
-
 main {
   display: flex;
   align-items: center;
@@ -95,15 +104,6 @@ span {
   letter-spacing: 0.05em;
   animation: topdown2 700ms 350ms backwards;
 }
-.text {
-  display: none;
-  max-width: 27.5rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 2.0rem;
-  color: var(--color-title-h1);
-}
 .footer-desk {
   font-family: 'Open Sans';
   font-weight: 400;
@@ -119,11 +119,7 @@ footer strong {
   color: #4A4E69;
 }
 
-@media (min-width: 700px){
-  .container {
-    flex-direction: column;
-  }
-}
+
 
 
 @media (min-width: 1280px){
@@ -131,6 +127,11 @@ footer strong {
     flex-direction: row;
     justify-content: center;
     gap: 9.8rem;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   span {
     display: none;

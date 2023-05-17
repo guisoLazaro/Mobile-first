@@ -8,13 +8,6 @@ Esse projeto foi feito no curso Explorer da Rocketseat, com o objetivo de pratic
 
 
 
-## Versão Mobile:
-
-![Mobile](https://drive.google.com/file/d/1R4UJyYa5dzpfTn1GLyt-_9u5_meqeJ1k/view?usp=share_link)
-
-## Versão Desktop:
-
-![Desktop](https://drive.google.com/file/d/1aleAYv4RKWYePWcmySn48vhkKuekaHSy/view?usp=share_link)
 
 ## Tecnologias Utilizadas:
 

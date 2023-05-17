@@ -8,14 +8,14 @@ Esse projeto foi feito no curso Explorer da Rocketseat, com o objetivo de pratic
 
 <p align="center">
   <img  alt="">
-  <img alt="versão-desktop" src="https://github.com/guisoLazaro/Mobile-first/blob/main/Preview/versao-desktop.jpg">
+  <img alt="versão-desktop" src="https://github.com/guisoLazaro/Mobile-first/blob/main/Preview/versao-desktop.jpg" width="100%">
 </p>
 
 ## Versão Mobile:
 
 <p align="center">
   <img  alt="">
-  <img alt="versão-desktop" src="https://github.com/guisoLazaro/Mobile-first/blob/main/Preview/versao-mobile.jpg" width="100%">
+  <img alt="versão-desktop" src="https://github.com/guisoLazaro/Mobile-first/blob/main/Preview/versao-mobile.jpg" width="50%" heigth="300px">
 </p>
 
 

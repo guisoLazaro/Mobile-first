@@ -6,7 +6,10 @@ Esse projeto foi feito no curso Explorer da Rocketseat, com o objetivo de pratic
 
 # Versão Desktop:
 
-![versão desktop]("https://https://github.com/guisoLazaro/Mobile-first/blob/main/Preview/versao-desktop.jpg")
+<p align="center">
+  <img  alt="">
+  <img alt="versão-desktop" src=".github/preview.png" width="100%">
+</p>
 
 
 

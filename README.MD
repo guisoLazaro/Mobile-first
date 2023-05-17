@@ -4,14 +4,19 @@
 Esse projeto foi feito no curso Explorer da Rocketseat, com o objetivo de praticar os conhecimentos adquiridos no módulo de responsividade, aprendendo criar uma página através do conceito Mobile-First.
 
 
-# Versão Desktop:
+## Versão Desktop:
 
 <p align="center">
   <img  alt="">
   <img alt="versão-desktop" src="https://github.com/guisoLazaro/Mobile-first/blob/main/Preview/versao-desktop.jpg" width="100%">
 </p>
 
+## Versão Mobile:
 
+<p align="center">
+  <img  alt="">
+  <img alt="versão-desktop" src="https://github.com/guisoLazaro/Mobile-first/blob/main/Preview/versao-mobile.jpg" width="100%">
+</p>
 
 
 ## Tecnologias Utilizadas:
